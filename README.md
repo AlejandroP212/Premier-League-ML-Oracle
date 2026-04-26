@@ -1,5 +1,6 @@
 # Taller 2: Machine Learning I — Premier League 2025/26
 **Integrantes:** Alejandro Pardo & Ailyn Gomez
+**GitHub Repo:** [AlejandroP212/Premier-League-ML-Oracle](https://github.com/AlejandroP212/Premier-League-ML-Oracle)
 
 Este repositorio contiene la solución completa para el Taller 2 de ML1. Hemos construido un pipeline de machine learning para predecir variables clave de la Premier League 2025-26, incluyendo goles esperados (xG), marcador final y resultado del partido (H/D/A).
 
