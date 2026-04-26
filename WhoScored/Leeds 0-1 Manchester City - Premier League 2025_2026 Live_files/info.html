@@ -1,0 +1,102 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!-- saved from url=(0039)https://www.whoscored.com/accounts/info -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script src="./verify-client.js.download" defer=""></script>
+    <style type="text/css">
+        body {
+            margin: 0;
+            padding: 0;
+            font-size: 12px;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: transparent;
+        }
+
+        a,
+        a:visited {
+            font-size: 11px;
+            font-weight: bold;
+            color: #222;
+            text-decoration: none;
+        }
+
+            a:hover {
+                text-decoration: underline;
+            }
+
+        #accountInfo {
+            float: right;
+            color: #FFF;
+            line-height: 24px;
+        }
+
+        #signin {
+            border-radius: 3px;
+            padding: 0 3px;
+            font-weight: bold;
+            color: white;
+        }
+
+        #signup {
+            color: #57DC1C;
+        }
+
+        .unselectable {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        #accountControls {
+            position: relative;
+            display: inline-block;
+        }
+
+            #accountControls span {
+                font-size: 11px;
+                font-weight: bold;
+                cursor: pointer;
+                color: #fff;
+                padding-left: 4px;
+            }
+
+                #accountControls span:hover {
+                    text-decoration: underline;
+                }
+
+        #accountInfo #logout {
+            color: #ffffff;
+        }
+
+    </style>
+<script src="./ping.js.download" defer=""></script></head>
+<body>
+    <div id="accountInfo">
+        
+        <span id="usertext"><a id="signin" href="https://www.whoscored.com/accounts/login" target="_parent">Sign In </a>| <a id="signup" href="https://www.whoscored.com/accounts/register" target="_parent">Sign Up</a></span>
+        <span id="userhead" style="display: none;">
+            <img src="./SignedOut.svg" alt="O" height="18" width="18" style="vertical-align: sub;">
+        </span>
+        
+        <script type="text/javascript">
+            if (window.screen.width > 720) {
+                document.querySelector("#userhead").style.display = 'none';
+            }
+            else {
+                document.querySelector("#usertext").style.display = 'none';
+
+
+
+                document.addEventListener('DOMContentLoaded', function () {
+                    var accountControls = document.getElementById('userhead');
+                    accountControls.addEventListener('click', function () {
+                            var event = new CustomEvent('userhead-click', { detail: '' });
+                        parent.document.body.dispatchEvent(event);
+                    
+                });
+            });
+            }
+        </script>
+    </div>
+
+
+</body></html>

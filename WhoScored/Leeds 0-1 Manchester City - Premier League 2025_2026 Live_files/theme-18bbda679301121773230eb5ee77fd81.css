@@ -1,0 +1,660 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.Footer-module_footer__oYC1L {
+  background-color: #262626;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Lato", "Arial", "Helvetica", "sans-serif";
+  font-size: 12px;
+  padding: 36px 10px 10px 10px;
+}
+.Footer-module_footer__oYC1L a {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+}
+.Footer-module_footer__oYC1L a:hover {
+  text-decoration: underline;
+}
+.Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 {
+  justify-content: center;
+  display: flex;
+  gap: 20px;
+}
+@media only screen and (max-width : 719px) {
+  .Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 {
+    gap: 0px;
+  }
+}
+.Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 .Footer-module_link__1RyMQ {
+  text-align: center;
+  width: 200px;
+}
+@media only screen and (max-width : 719px) {
+  .Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 .Footer-module_link__1RyMQ {
+    width: 110px;
+  }
+}
+.Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 .Footer-module_nav__9yiei {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px 20px;
+  justify-content: center;
+}
+@media only screen and (max-width : 719px) {
+  .Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 .Footer-module_nav__9yiei {
+    gap: 20px 0px;
+  }
+}
+.Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 .Footer-module_betting__3MN-k {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  justify-content: center;
+}
+@media only screen and (max-width : 719px) {
+  .Footer-module_footer__oYC1L .Footer-module_footerMap__GzqP2 .Footer-module_betting__3MN-k {
+    gap: 20 0px;
+  }
+}
+.Footer-module_footer__oYC1L .Footer-module_footerSocial__E05pW {
+  display: flex;
+  height: 38px;
+  gap: 10px;
+}
+.Footer-module_footer__oYC1L .Footer-module_footerSocial__E05pW .Footer-module_socialLogos__mY-4t {
+  display: inline-block;
+  height: 38px;
+  width: 38px;
+}
+.Footer-module_footer__oYC1L .Footer-module_apps__sJ-dM {
+  display: flex;
+  gap: 10px;
+}
+.Footer-module_footer__oYC1L .Footer-module_copyright__-5zxb {
+  color: #999;
+  text-align: center;
+}
+.Footer-module_footer__oYC1L .Footer-module_saferGambling__zCKgx {
+  text-align: center;
+  color: #999;
+}
+.Footer-module_footer__oYC1L .Footer-module_saferGambling__zCKgx .Footer-module_legalLogos__jKG-Y {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 5px;
+  align-items: center;
+  margin-top: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.MatchFacts-module_matchFacts__hLOux {
+  font-family: "Lato", "Arial", "Helvetica", "sans-serif";
+  font-size: 12px;
+  color: #20242e;
+}
+.MatchFacts-module_matchFacts__hLOux .MatchFacts-module_matchFact__YCU-s {
+  border: 1px solid #eaeae9;
+  border-radius: 5px;
+  padding: 8px 8px;
+}
+.MatchFacts-module_matchFacts__hLOux .MatchFacts-module_matchFact__YCU-s:nth-child(n) {
+  margin-bottom: 10px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.MatchOdds-module_matchOdds__-wTX7 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 8px;
+}
+.MatchOdds-module_matchOdds__-wTX7 span {
+  font-weight: bold;
+}
+@media only screen and (max-width : 479px) {
+  .MatchOdds-module_matchOdds__-wTX7 {
+    grid-template-columns: 1fr;
+  }
+}
+
+.side-box .MatchOdds-module_matchOdds__-wTX7 {
+  grid-template-columns: 1fr;
+  gap: 8px;
+}
+.side-box .MatchOdds-module_matchOdds__-wTX7 span {
+  font-weight: bold;
+}
+.TeamFixtures-module_TeamFixtures__spld3 {
+  /*
+   * Replace this with your own classes
+   *
+   * e.g.
+   * .container {
+   * }
+  */
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.TopFacts-module_topFacts__orEDb {
+  font-family: "Lato", "Arial", "Helvetica", "sans-serif";
+  font-size: 12px;
+  color: #20242e;
+  min-width: 300px;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_heading__pZhaR {
+  display: none;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  gap: 9px;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- {
+  border: 1px solid #eaeae9;
+  border-radius: 5px;
+  overflow: hidden;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC {
+  display: flex;
+  background-color: #f5f6f6;
+  line-height: 17px;
+  padding: 8px;
+  gap: 5px;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC .TopFacts-module_countryFlag__437Gv {
+  margin-top: 1px;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC .TopFacts-module_countryFlag__437Gv :nth-child(n) {
+  margin: 0 auto;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC .TopFacts-module_factTitle__cXRAM {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  word-break: normal;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC .TopFacts-module_factTitle__cXRAM .TopFacts-module_factTitleText__DLFUJ {
+  font-weight: bold;
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC .TopFacts-module_factTitle__cXRAM .TopFacts-module_factTitleText__DLFUJ:hover {
+  text-decoration: underline;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factHeader__ukMMC .TopFacts-module_factTitle__cXRAM .TopFacts-module_factTitleCtdown__QRiDD {
+  white-space: nowrap;
+}
+.TopFacts-module_topFacts__orEDb .TopFacts-module_facts__cmp5L .TopFacts-module_fact__NJ6A- .TopFacts-module_factDetail__kFZ7S {
+  padding: 8px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.Accordion-module_accordion__UuHD0 {
+  border: 1px solid #eaeae9;
+  border-radius: 6px;
+}
+@media only screen and (max-width : 479px) {
+  .Accordion-module_accordion__UuHD0 {
+    border: 0;
+    border-radius: 0;
+  }
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_header__HqzWD {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px;
+  background-color: #f5f6f6;
+  padding: 6px 16px;
+  border-radius: 5px 5px 0 0;
+}
+@media only screen and (max-width : 479px) {
+  .Accordion-module_accordion__UuHD0 .Accordion-module_header__HqzWD {
+    border: 0;
+    border-radius: 0;
+  }
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_headerTitle__otZJ6 {
+  color: inherit;
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_headerExtra__AZJhC {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  display: flex;
+  justify-content: flex-end;
+  gap: 5px;
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_headerNote__hbQWX {
+  font-size: 11px;
+  font-weight: lighter;
+  font-style: italic;
+  color: inherit;
+  margin-top: 2px;
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_headerChildren__u62ed {
+  grid-row: 2/span 1;
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_childrenClosed__CsUox {
+  opacity: 0;
+  animation: Accordion-module_outAnimation__9s-Op 0.2s;
+}
+.Accordion-module_accordion__UuHD0 .Accordion-module_childrenOpened__Ghom6 {
+  opacity: 1;
+}
+@keyframes Accordion-module_outAnimation__9s-Op {
+  0% {
+    opacity: 1;
+  }
+  25% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  75% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+}
+.AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter__vMM8U, .AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter_selected__u1vU7 {
+  background-color: #f5f6f6;
+  min-width: 24px;
+  height: 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 3px;
+  color: #061125;
+}
+.AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter__vMM8U:hover, .AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter_selected__u1vU7:hover {
+  background-color: #d4f6c4;
+  color: #1eb600;
+}
+@media only screen and (max-width : 719px) {
+  .AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter__vMM8U, .AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter_selected__u1vU7 {
+    min-width: 36px;
+    height: 36px;
+  }
+}
+.AlphabetSearch-module_alphabetSearch__7PY3H .AlphabetSearch-module_lettersContainer__o1pBK .AlphabetSearch-module_letter_selected__u1vU7 {
+  background-color: #d4f6c4;
+  color: #1eb600;
+}
+.Alternate-module_alternate__kJtml .Alternate-module_show__qfo6f {
+  display: inline;
+}
+.Alternate-module_alternate__kJtml .Alternate-module_hide__kcKqL {
+  display: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.BookmakerDropdown-module_bookmakerDropdown__I0iww {
+  position: relative;
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerButton__qw-tI {
+  display: flex;
+  gap: 10px;
+  padding: 5px 9px 5px 8px;
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #e6e7e9;
+  cursor: pointer;
+  background: linear-gradient(0deg, rgba(153, 157, 164, 0.17) 0%, rgba(35, 99, 174, 0) 100%);
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerButton__qw-tI .BookmakerDropdown-module_img__0kOy5 {
+  width: 64px;
+  height: 17px;
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerButton__qw-tI .BookmakerDropdown-module_chevron__zJvJV {
+  display: inline;
+  margin: auto;
+  filter: brightness(0) saturate(100%) invert(40%) sepia(8%) saturate(870%) hue-rotate(181deg) brightness(92%) contrast(75%);
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerDropdown__I0iww {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  top: 31px;
+  left: 0px;
+  z-index: 10;
+  background-color: white;
+  padding: 6px 5px 4px 7px;
+  border-radius: 5px;
+  border: solid 1px white;
+  box-shadow: 0px 3px 3px 2px rgba(0, 0, 0, 0.2), 0px 0px 3px 0px rgba(0, 0, 0, 0.1);
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerSelectOption__oOLut {
+  display: flex;
+  gap: 6px;
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerSelectOption__oOLut .BookmakerDropdown-module_bookmakerSelectRadio__8NX7h, .BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerSelectOption__oOLut .BookmakerDropdown-module_bookmakerSelectRadio_selected__wADDO {
+  border: solid 1px #606774;
+  height: 20px;
+  width: 20px;
+  border-radius: 10px;
+  padding: 4px;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+.BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerDropdown__I0iww .BookmakerDropdown-module_bookmakerSelectOption__oOLut .BookmakerDropdown-module_bookmakerSelectRadio_selected__wADDO {
+  display: flex;
+  place-items: "center";
+  background-color: #4cd60e;
+  background-clip: content-box;
+}
+.DisplayModeWrapper-module_display_block__xtFcJ {
+  display: block;
+}
+.DisplayModeWrapper-module_display_none__u4qwt {
+  display: none;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.FactsDetail-module_factsDetail__ZmSQW {
+  border-radius: 5px;
+  display: grid;
+  font-size: 12px;
+  grid-row: 2;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_factsHeader__v-gmB {
+  align-items: center;
+  margin: 1px 0 8px 4px;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_factsHeader__v-gmB .FactsDetail-module_factRow__ZmSlg {
+  display: flex;
+  gap: 9px;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_factsHeader__v-gmB .FactsDetail-module_factText__8XLqx {
+  margin-left: 5px;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_factsHeader__v-gmB .FactsDetail-module_plusBullet__gKStm {
+  color: #1eb600;
+  font-size: 14px;
+  font-weight: bolder;
+  line-height: 17px;
+  margin-top: 0px;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_cell__9QXuz * {
+  font-weight: bold;
+  font-size: 13px;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_cell__9QXuz .FactsDetail-module_oddsCell__RohWc {
+  width: 100%;
+}
+.FactsDetail-module_factsDetail__ZmSQW .FactsDetail-module_cell__9QXuz .FactsDetail-module_bookmakerLogo__iDJjr {
+  height: 17px;
+  margin: auto;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.FavoriteButton-module_fav__QOFNp {
+  position: relative;
+  height: 17px;
+}
+.FavoriteButton-module_fav__QOFNp .FavoriteButton-module_favBtn__BKOtJ {
+  border: none;
+  background: none;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
+  height: 17px;
+}
+.FavoriteButton-module_fav__QOFNp .FavoriteButton-module_favBtn__BKOtJ .FavoriteButton-module_hollowStar__-JabS:hover {
+  filter: invert(46%) sepia(66%) saturate(2308%) hue-rotate(77deg) brightness(101%) contrast(101%);
+}
+
+.FavoriteButton-module_signInPopup__hNg17 {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #222222;
+  padding: 10px;
+  min-width: 90px;
+  left: 20px;
+  top: -6px;
+  z-index: 25;
+}
+.FavoriteButton-module_signInPopup__hNg17 a {
+  color: inherit;
+  text-decoration: none;
+}
+.FavoriteButton-module_signInPopup__hNg17 a:hover {
+  text-decoration: underline;
+}
+.FavoriteButton-module_signInPopup__hNg17 .FavoriteButton-module_signIn__pCm6x {
+  color: white;
+  font-weight: bold;
+  border-right: 1.5px solid white;
+  z-index: 1;
+  font-size: 12px;
+  white-space: nowrap;
+  padding-right: 6px;
+}
+.FavoriteButton-module_signInPopup__hNg17 .FavoriteButton-module_signUp__RbWmK {
+  color: #57dc1c;
+  font-weight: bold;
+  font-size: 12px;
+  z-index: 1;
+  font-size: 12px;
+  white-space: nowrap;
+  padding-left: 6px;
+  text-align: left;
+}
+
+.FavoriteButton-module_backDrop__drIaj {
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: 24;
+}
+@media only screen and (max-width : 479px) {
+  .FavoriteButton-module_backDrop__drIaj {
+    background: rgba(37, 36, 36, 0.3137254902);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.LoadingWrapper-module_loadingWrapper__aM0n1 {
+  position: relative;
+  min-height: 100px;
+}
+.LoadingWrapper-module_loadingWrapper__aM0n1 * {
+  box-sizing: content-box;
+}
+.LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loading__T0zWq, .LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loading_off__XR1rK, .LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loading_on__OTUUw {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loading_on__OTUUw {
+  opacity: 0.5;
+  min-height: 50px;
+}
+.LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loading_off__XR1rK {
+  opacity: 1;
+}
+.LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loaderWrapper__E7eCQ {
+  position: absolute;
+  right: 0;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+}
+.LoadingWrapper-module_loadingWrapper__aM0n1 .LoadingWrapper-module_loaderWrapper__E7eCQ .LoadingWrapper-module_loader__qea-B {
+  border: 8px solid #f3f3f3;
+  border-top: 8px solid #57dc1c;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  margin-top: 25px;
+  animation: LoadingWrapper-module_spin__7uR42 2s linear infinite;
+}
+@keyframes LoadingWrapper-module_spin__7uR42 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.MatchCountdown-module_matchStartCountdown__Vnz4i {
+  font-family: "Lato", "Arial", "Helvetica", "sans-serif";
+  font-size: 12px;
+  color: #20242e;
+  color: rgba(6, 17, 37, 0.3137254902);
+  font-size: 11px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.OddsCell-module_oddsCell__nXjLN, .OddsCell-module_oddsCell_singleProvider__M4ift {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  list-style: none;
+  background-color: #fafafb;
+  border-radius: 5px;
+  gap: 6px;
+  padding: 4px 4px 4px 8px;
+  font-family: "Lato", "Arial", "Helvetica", "sans-serif";
+}
+@media only screen and (max-width : 479px) {
+  .OddsCell-module_oddsCell__nXjLN, .OddsCell-module_oddsCell_singleProvider__M4ift {
+    padding-right: 4px;
+    gap: 1px;
+  }
+}
+.OddsCell-module_oddsCell__nXjLN .OddsCell-module_betName__6Qm92, .OddsCell-module_oddsCell_singleProvider__M4ift .OddsCell-module_betName__6Qm92 {
+  margin: auto;
+  padding-right: 2px;
+  font-size: 13px;
+  line-height: 19px;
+  color: #20242e;
+  grid-column: 1;
+  overflow-wrap: anywhere;
+}
+.OddsCell-module_oddsCell__nXjLN .OddsCell-module_betButtonGroup__e9-gz, .OddsCell-module_oddsCell_singleProvider__M4ift .OddsCell-module_betButtonGroup__e9-gz {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-column: 2;
+  margin-left: auto;
+  gap: 6px;
+}
+@media only screen and (max-width : 479px) {
+  .OddsCell-module_oddsCell__nXjLN .OddsCell-module_betButtonGroup__e9-gz, .OddsCell-module_oddsCell_singleProvider__M4ift .OddsCell-module_betButtonGroup__e9-gz {
+    gap: 2px;
+  }
+}
+.OddsCell-module_oddsCell__nXjLN .OddsCell-module_betButtonGroup__e9-gz .OddsCell-module_betButton__4ta6M, .OddsCell-module_oddsCell_singleProvider__M4ift .OddsCell-module_betButtonGroup__e9-gz .OddsCell-module_betButton__4ta6M {
+  margin: auto;
+  grid-row: 1;
+}
+
+.OddsCell-module_oddsCell_singleProvider__M4ift {
+  cursor: pointer;
+}
+.OddsCell-module_oddsCell_singleProvider__M4ift:hover > .OddsCell-module_betButtonGroup__e9-gz > .OddsCell-module_betButton__4ta6M > * {
+  background-color: #d4f6c4;
+  border-color: #57dc1c;
+}
+.RefreshCountdown-module_refreshCountdown__hKJX6 {
+  display: block;
+}
+/*
+ * Replace this with your own classes
+ *
+ * e.g.
+ * .container {
+ * }
+*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.textBlock {
+  width: 100%;
+  font-family: "Lato", "Arial", "Helvetica", "sans-serif";
+  font-size: 12px;
+  line-height: 17px;
+}
+.textBlock .textBlockHighlight, .textBlock .factValue, .textBlock .factName {
+  font-weight: bold;
+  font-size: 13px;
+  color: #1eb600;
+}
+.textBlock .factTeamName {
+  color: inherit;
+}
+.ThemeImage-module_themeImage__mmLe2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ThemeImage-module_themeImage__mmLe2 img {
+  color: transparent;
+  white-space: nowrap;
+  overflow: hidden;
+  font-size: 1px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Open+Sans:wght@300&display=swap");
+.TournamentNavButton-module_tournamentBtn__ZGW8P, .TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  height: 20px;
+  cursor: pointer;
+  color: #20242e;
+  align-items: center;
+}
+.TournamentNavButton-module_tournamentBtn__ZGW8P .TournamentNavButton-module_clickableArea__ZFnBl, .TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy .TournamentNavButton-module_clickableArea__ZFnBl {
+  color: inherit;
+  text-decoration: none;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 5px;
+  align-items: center;
+}
+.TournamentNavButton-module_tournamentBtn__ZGW8P .TournamentNavButton-module_clickableArea__ZFnBl:hover, .TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy .TournamentNavButton-module_clickableArea__ZFnBl:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width : 719px) {
+  .TournamentNavButton-module_tournamentBtn__ZGW8P, .TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy {
+    height: auto;
+    align-items: center;
+    padding: 11px 15px;
+    width: auto;
+    border-bottom: 1px solid #eaeae9;
+  }
+}
+.TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy {
+  grid-template-columns: 1fr auto;
+  border-bottom: none;
+  height: 30px;
+  padding: 5px 5px;
+  background-color: #fafafb;
+}
+.TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy a {
+  display: block;
+}
+.TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy a {
+  color: inherit;
+  text-decoration: none;
+}
+.TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width : 719px) {
+  .TournamentNavButton-module_tournamentBtn_allTournaments__-uDoy {
+    padding: 8px 10px 8px 15px;
+    height: 40px;
+  }
+}

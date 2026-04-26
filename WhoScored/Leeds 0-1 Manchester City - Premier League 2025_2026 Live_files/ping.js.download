@@ -1,0 +1,56 @@
+"use strict";
+(() => {
+  // src/ping.ts
+  var uaPingInterval = 3e4;
+  var maxPings = 60;
+  var pingCount = 0;
+  var pingIntervalId = null;
+  var firstLoad = true;
+  function pingUaRequest() {
+    if (pingCount >= maxPings) {
+      stopPinging();
+      return;
+    }
+    fetch("/api/v1/ingest", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        timestamp: (/* @__PURE__ */ new Date()).toISOString(),
+        url: window.location.href,
+        ping: 1
+      })
+    }).catch(() => {
+    });
+    pingCount++;
+  }
+  function startPinging(immediate = false) {
+    if (pingIntervalId || pingCount >= maxPings) return;
+    if (immediate) {
+      pingUaRequest();
+    }
+    pingIntervalId = setInterval(pingUaRequest, uaPingInterval);
+  }
+  function stopPinging() {
+    if (pingIntervalId) {
+      clearInterval(pingIntervalId);
+      pingIntervalId = null;
+    }
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") {
+      startPinging(!firstLoad);
+      firstLoad = false;
+    } else {
+      stopPinging();
+    }
+  });
+  if (document.visibilityState === "visible") {
+    firstLoad = true;
+    setTimeout(() => {
+      if (document.visibilityState === "visible") {
+        startPinging();
+        firstLoad = false;
+      }
+    }, uaPingInterval);
+  }
+})();

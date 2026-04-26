@@ -1,0 +1,1 @@
+{"accuracy": 0.48588435374149663, "baseline_accuracy": 0.5062240663900415, "features": ["home_rolling_goals", "away_rolling_goals", "home_rolling_shots", "away_rolling_shots", "home_rolling_sot", "away_rolling_sot", "diff_goals", "diff_shots", "diff_sot", "b365h", "b365d", "b365a"]}

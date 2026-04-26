@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Premier Oracle — Alejandro & Ailyn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <nav>
+        <div class="logo">THE PREMIER<span>ORACLE</span></div>
+        <div class="authors">Alejandro Pardo & Ailyn Gomez</div>
+    </nav>
+
+    <header>
+        <div class="hero">
+            <h1>Descifrando el Caos del <span>Fútbol</span></h1>
+            <p>Más allá de los 90 minutos, existen patrones ocultos en el ruido. <br>Bienvenido a una odisea de Machine Learning sobre la Premier League 2025/26.</p>
+            <div class="hero-actions">
+                <a href="#story" class="btn btn-outline">Nuestra Historia</a>
+                <a href="#simulator" class="btn">Simular Destino</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- The Story Section -->
+        <section id="story" class="card narrative">
+            <div class="narrative-grid">
+                <div class="text">
+                    <span class="eyebrow">Capítulo 1</span>
+                    <h2>La Odisea del Dato</h2>
+                    <p>Todo comenzó con una pregunta: ¿Es posible predecir el resultado de un partido basándonos únicamente en el flujo del juego? Para responderlo, nos conectamos a las arterias de información de la Premier League, extrayendo miles de eventos en tiempo real.</p>
+                    <p>No nos detuvimos en los resultados finales. Analizamos el "momentum": creamos variables de <strong>Rolling Average</strong> que capturan cómo un equipo respira y evoluciona a lo largo de las semanas. Esta no es una foto estática; es una película del rendimiento deportivo.</p>
+                </div>
+                <div class="image-container">
+                    <img src="bg.png" alt="Data Flow" class="feature-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- xG Deep Dive -->
+        <section id="xg-depth" class="card narrative alternate">
+            <div class="narrative-grid">
+                <div class="image-container">
+                    <img src="xg_viz.png" alt="xG Map" class="feature-img">
+                </div>
+                <div class="text">
+                    <span class="eyebrow">Capítulo 2</span>
+                    <h2>El Oráculo del Gol: xG</h2>
+                    <p>En el fútbol, no todos los disparos son iguales. Un toque sutil a un metro del arco vale más que un misil desde media cancha. Aquí es donde entra nuestro modelo de <strong>Expected Goals (xG)</strong>.</p>
+                    <p>Entrenamos una Regresión Logística sobre una muestra de más de <strong>7,000 disparos</strong>. El modelo aprendió a valorar la probabilidad de éxito basada en la distancia y el ángulo, permitiéndonos ver la justicia —o injusticia— de un marcador.</p>
+                </div>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="xgChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Model Logic -->
+        <section id="logic" class="card">
+            <div class="logic-header">
+                <h2>La Ciencia Detrás del Pronóstico</h2>
+                <p>Nuestros algoritmos no adivinan; calculan. Utilizamos validación cruzada (K-Fold) para asegurar que nuestro modelo sea robusto y no solo un reflejo de la suerte.</p>
+            </div>
+            <div class="stats-grid">
+                <div class="stat-item">
+                    <div class="icon">📈</div>
+                    <h3>Regresión Lineal</h3>
+                    <p>Predice el volumen de goles. Entiende que los tiros a puerta son el mejor indicador de la calidad ofensiva.</p>
+                </div>
+                <div class="stat-item">
+                    <div class="icon">⚖️</div>
+                    <h3>Regresión Logística</h3>
+                    <p>Clasifica el destino: Local, Empate o Visitante. Compite cabeza a cabeza con las cuotas de Bet365.</p>
+                </div>
+                <div class="stat-item">
+                    <div class="icon">🛡️</div>
+                    <h3>Validación Robusta</h3>
+                    <p>Usamos 5 pliegues de validación para garantizar que nuestras métricas de precisión (48.6%) sean reales y confiables.</p>
+                </div>
+            </div>
+            <div class="chart-wrapper">
+                <canvas id="importanceChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Match Simulator -->
+        <section id="simulator" class="card simulator">
+            <div class="sim-header">
+                <h2>El Laboratorio de Predicción</h2>
+                <p>Pon a prueba nuestra IA. Selecciona un enfrentamiento y observa cómo los modelos de regresión y clasificación convergen en un resultado probable.</p>
+            </div>
+            
+            <div class="sim-controls">
+                <div class="team-select">
+                    <label>Gloria Local</label>
+                    <select id="home-team-select"></select>
+                </div>
+                <div class="vs-circle">VS</div>
+                <div class="team-select">
+                    <label>Desafío Visitante</label>
+                    <select id="away-team-select"></select>
+                </div>
+            </div>
+            
+            <button id="simulate-btn" class="btn">Generar Predicción</button>
+            
+            <div id="results" class="results hidden">
+                <div class="score-display">
+                    <div class="team-block">
+                        <span class="name" id="res-home-name">LOCAL</span>
+                        <span class="score" id="res-home-goals">0.0</span>
+                    </div>
+                    <div class="score-divider">:</div>
+                    <div class="team-block">
+                        <span class="name" id="res-away-name">VISITANTE</span>
+                        <span class="score" id="res-away-goals">0.0</span>
+                    </div>
+                </div>
+                
+                <div class="probability-viz">
+                    <div class="prob-track">
+                        <div class="bar-h" id="prob-h-bar"></div>
+                        <div class="bar-d" id="prob-d-bar"></div>
+                        <div class="bar-a" id="prob-a-bar"></div>
+                    </div>
+                    <div class="prob-labels">
+                        <div class="prob-val h-text">
+                            <span class="percentage" id="prob-h-text">0%</span>
+                            <span class="label">Local</span>
+                        </div>
+                        <div class="prob-val d-text">
+                            <span class="percentage" id="prob-d-text">0%</span>
+                            <span class="label">Empate</span>
+                        </div>
+                        <div class="prob-val a-text">
+                            <span class="percentage" id="prob-a-text">0%</span>
+                            <span class="label">Visitante</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="UD">UD — Universidad Distrital Francisco José de Caldas</div>
+            <div class="course">Taller de Machine Learning I — 2026</div>
+            <div class="copyright">&copy; Alejandro Pardo & Ailyn Gomez</div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
